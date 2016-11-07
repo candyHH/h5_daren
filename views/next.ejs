@@ -12,27 +12,18 @@
   <body>
     <div class="container">
       <img src="images/next_bg.jpg" alt="首页背景图" class="next-bg"/>
-      <button type="button" onclick="playVid()">
-        <img src="images/brazil.jpg" alt="" class="img-intro-btn intro-brazil-btn" />
-      </button>
+      <img src="images/brazil.jpg" alt="" class="img-intro-btn intro-brazil-btn" />
       <img src="images/intro_japan.jpg" alt="" class="img-intro-japan"/>
       <img src="images/japan.jpg" alt="" class="img-intro-btn intro-japan-btn"/>
       <img src="images/intro_balidao.jpg" alt="" class="img-intro-balidao"/>
       <img src="images/balidao.jpg" alt="" class="img-intro-btn intro-balidao-btn"/>
 
-      <video controls="controls" poster="images/Brazil.png" class="vedio-play brazil-play" id="brazil-play" src="http://www.runoob.com/try/demo_source/mov_bbb.mp4" type="video/mp4"></video>
-      <video controls="controls" poster="images/japan.png" class="vedio-play japan-play" src="http://www.runoob.com/try/demo_source/mov_bbb.mp4" type="video/mp4"></video>
-      <video controls="controls"poster="images/balidao.jpg"  class="vedio-play balidao-play" src="http://www.runoob.com/try/demo_source/mov_bbb.mp4" type="video/mp4"></video>
+      <video controls="controls" poster="images/Brazil.png" class="vedio-play" id="brazil-play" src="http://video.lalocal.cn/yunying/mp4/liyue.mp4" type="video/mp4"></video>
+      <video controls="controls" poster="images/japan.png" class="vedio-play" id="japan-play" src="http://video.lalocal.cn/yunying/mp4/tokyo.mp4" type="video/mp4"></video>
+      <video controls="controls"poster="images/balidao.jpg"  class="vedio-play" id="balidao-play" src="http://video.lalocal.cn/yunying/mp4/bali.mp4" type="video/mp4"></video>
       <img src="images/img_intro.jpg" alt="" class="img-intro"/>
       <img src="images/return_index.jpg" alt="" class="return-index-btn"/>
     </div>
     <%include include_share.ejs%>
-    <script type="text/javascript">
-    var x = document.getElementById('brazil-play');
-    function playVid() {
-      console.log('hhh');
-      x.play();
-    }
-    </script>
   </body>
 </html>

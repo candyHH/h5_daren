@@ -44,17 +44,16 @@ $(document).ready(function(){
     window.location.href="sign"
   })
   //播放视频
-
-    var x = document.getElementsByClassName('brazil-play');
-    function playVid() {
-      console.log('hhh');
-      x.play();
-    }
-
+  $('.intro-brazil-btn').on('click',function () {
+    var brazil = document.getElementById('brazil-play');
+    brazil.play();
+  })
   $('.intro-japan-btn').on('click',function () {
-    $('.japan-play').play();
+    var japan = document.getElementById('japan-play');
+    japan.play();
   })
   $('.intro-balidao-btn').on('click',function () {
-    $('.balidao-play').play();
+    var balidao = document.getElementById('balidao-play');
+    balidao.play();
   })
 });
