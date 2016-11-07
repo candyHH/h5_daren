@@ -80,14 +80,26 @@ $(document).ready(function(){
   })
   //播放视频
   $('.intro-brazil-btn').on('click',function () {
+    if(flag == 'false'){
+      alert('请在微信端观看');
+      return ;
+    }
     var brazil = document.getElementById('brazil-play');
     brazil.play();
   })
   $('.intro-japan-btn').on('click',function () {
+    if(flag == 'false'){
+      alert('请在微信端观看');
+      return ;
+    }
     var japan = document.getElementById('japan-play');
     japan.play();
   })
   $('.intro-balidao-btn').on('click',function () {
+    if(flag == 'false'){
+      alert('请在微信端观看');
+      return ;
+    }
     var balidao = document.getElementById('balidao-play');
     balidao.play();
   })

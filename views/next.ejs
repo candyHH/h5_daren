@@ -7,7 +7,6 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel='stylesheet' href='stylesheets/next.css' />
     <script src="javascripts/jquery-1.10.1.min.js" charset="utf-8"></script>
-    <script src="javascripts/main.js" charset="utf-8"></script>
     <%include include_count.ejs%>
   </head>
   <body>
@@ -26,5 +25,10 @@
       <img src="images/return_index.jpg" alt="" class="return-index-btn"/>
     </div>
     <%include include_share.ejs%>
+    <script type="text/javascript">
+      var flag = '<%=wechat%>';
+      console.log(flag);
+    </script>
+    <script src="javascripts/main.js" charset="utf-8"></script>
   </body>
 </html>

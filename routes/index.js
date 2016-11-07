@@ -8,6 +8,7 @@ router.get('/', function(req, res, next) {
   if (req.query.DEVICE== 'ios' || req.query.DEVICE == 'android') {
     isApp = true;
   }
+
   var thisUrl = req.url;
   var shareUrl = encodeURIComponent((global.browserURL + thisUrl).split('#')[0]);
   console.log('shareUrl.................'+(global.browserURL + thisUrl).split('#')[0]);
@@ -51,6 +52,13 @@ router.get('/next', function(req, res, next) {
     isApp = true;
   }
   var thisUrl = req.url;
+  var isPhone = false;
+  var agentID = req.headers['user-agent'].toLowerCase().search(/(micromessenger)/);
+  if (agentID > 0) {
+      isPhone = true;
+  } else {
+      isPhone = false;
+  }
   var shareUrl = encodeURIComponent((global.browserURL + thisUrl).split('#')[0]);
   console.log('shareUrl.................'+(global.browserURL + thisUrl).split('#')[0]);
   superagent
@@ -59,6 +67,7 @@ router.get('/next', function(req, res, next) {
       if (res2 !== undefined && res2.ok) {
         res2.body.browserUrl = global.browserURL;
         res2.body.flag = isApp;
+        res2.body.wechat = isPhone;
         res.render('next',res2.body);
       } else {
         console.error('微信分享api错误。');
