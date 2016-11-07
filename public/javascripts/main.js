@@ -1,4 +1,39 @@
 
+// 监听查看达人资料事件
+$('.daren-wang-btn').on('click', function() {
+  _hmt.push(['_trackEvent', '120_complex_wang', 'click', '0']);
+});
+$('.daren-tang-btn').on('click', function() {
+  _hmt.push(['_trackEvent', '120_complex_tang', 'click', '0']);
+});
+$('.daren-pang-btn').on('click', function() {
+  _hmt.push(['_trackEvent', '120_complex_pang', 'click', '0']);
+});
+$('.daren-ku-btn').on('click', function() {
+  _hmt.push(['_trackEvent', '120_complex_ku', 'click', '0']);
+});
+
+// 监听返回首页事件
+$('.return-index-btn').on('click', function() {
+  _hmt.push(['_trackEvent', '120_complex_index', 'click', '0']);
+});
+
+//监听报名事件
+$('.sign-btn').on('click', function() {
+  _hmt.push(['_trackEvent', '120_complex_sign', 'click', '0']);
+});
+
+//监听观看视频事件
+$('.intro-brazil-btn').on('click', function() {
+  _hmt.push(['_trackEvent', '120_complex_brazil', 'click', '0']);
+});
+$('.intro-japan-btn').on('click', function() {
+  _hmt.push(['_trackEvent', '120_complex_japan', 'click', '0']);
+});
+$('.intro-balidao-btn').on('click', function() {
+  _hmt.push(['_trackEvent', '120_complex_balidao', 'click', '0']);
+});
+
 $(document).ready(function(){
   //页面跳转
   $(".next-btn").on('click',function(){
