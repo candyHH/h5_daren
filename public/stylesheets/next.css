@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  width: 100%;
+  height: auto;
+}
+.container{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.next-bg{
+  width: 100%;
+}
+.img-intro-japan,.img-intro-balidao,.img-intro{
+  width: 100%;
+}
+.img-intro{
+  margin-top: 5px;
+}
+.return-index-btn{
+  width: 23%;
+  margin: 5px 0;
+}

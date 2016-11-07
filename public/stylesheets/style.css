@@ -13,3 +13,68 @@ html,body{
 .index-bg{
   width: 100%;
 }
+.next-btn{
+  position: absolute;
+  width: 24vw;
+  height: 8vw;
+  top: 88vw;
+  left: 63vw;
+}
+.subway-btn{
+  position: absolute;
+  width: 21vw;
+  height: 7vw;
+  top: 107vw;
+  left: 72vw;
+}
+.daren-wang-btn{
+  position: absolute;
+  width: 14vw;
+  height: 17vw;
+  top: 125vw;
+  left: 27vw;
+}
+.daren-tang-btn{
+  position: absolute;
+  width: 14vw;
+  height: 17vw;
+  top: 125vw;
+  left: 42vw;
+}
+.daren-pang-btn{
+  position: absolute;
+  width: 14vw;
+  height: 17vw;
+  top: 125vw;
+  left: 57vw;
+}
+.daren-ku-btn{
+  position: absolute;
+  width: 14vw;
+  height: 17vw;
+  top: 125vw;
+  left: 73vw;
+}
+.sign-btn{
+  position: absolute;
+  width: 42vw;
+  height: 13vw;
+  top: 164vw;
+  left: 31vw;
+}
+.mengban{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top:0;
+  left:0;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: none;
+}
+
+.daren-intro{
+  position: absolute;
+  width: 100%;
+  top:30%;
+  display: none;
+}

@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  width: 100%;
+  height: auto;
+}
+.container{
+  width: 100%;
+  height: auto;
+}
+.subway-bg{
+  width: 100%;
+}
+.return-index-btn{
+  position: absolute;
+  width: 30vw;
+  height: 18vw;
+  top: 353vw;
+  left: 34vw;
+}
