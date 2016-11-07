@@ -21,13 +21,13 @@ $(document).ready(function(){
     var indexHeight = $('.container').height();
     $('.mengban').height(indexHeight);
     $('.mengban').show();
-    $('.intro-pang').show();
+    $('.intro-tang').show();
   })
   $('.daren-pang-btn').on('click',function () {
     var indexHeight = $('.container').height();
     $('.mengban').height(indexHeight);
     $('.mengban').show();
-    $('.intro-tang').show();
+    $('.intro-pang').show();
   })
   $('.daren-ku-btn').on('click',function () {
     var indexHeight = $('.container').height();
