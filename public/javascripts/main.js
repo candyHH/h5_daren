@@ -43,4 +43,18 @@ $(document).ready(function(){
   $('.sign-btn').on('click',function () {
     window.location.href="sign"
   })
+  //播放视频
+
+    var x = document.getElementsByClassName('brazil-play');
+    function playVid() {
+      console.log('hhh');
+      x.play();
+    }
+
+  $('.intro-japan-btn').on('click',function () {
+    $('.japan-play').play();
+  })
+  $('.intro-balidao-btn').on('click',function () {
+    $('.balidao-play').play();
+  })
 });

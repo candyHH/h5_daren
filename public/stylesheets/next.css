@@ -24,8 +24,12 @@ html,body{
   width: 23%;
   margin: 5px 0;
 }
+.img-intro-btn{
+  width: 90%;
+}
 .vedio-play{
   width: 90%;
+  display: none;
 }
 .vedio-box{
   background-color: green;
