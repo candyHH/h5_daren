@@ -5,7 +5,7 @@ $(document).ready(function(){
     window.location.href="next";
   });
   $('.return-index-btn').on('click',function () {
-    window.location.href="/";
+    window.location.href="index";
   })
   $('.subway-btn').on('click',function () {
     window.location.href="subway";
