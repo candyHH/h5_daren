@@ -15,17 +15,17 @@ html,body{
 }
 .next-btn{
   position: absolute;
-  width: 24vw;
-  height: 8vw;
+  width: 29vw;
+  height: 9vw;
   top: 88vw;
-  left: 63vw;
+  left: 59vw;
 }
 .subway-btn{
   position: absolute;
-  width: 21vw;
-  height: 7vw;
+  width: 24vw;
+  height: 8vw;
   top: 107vw;
-  left: 72vw;
+  left: 68vw;
 }
 .daren-wang-btn{
   position: absolute;
