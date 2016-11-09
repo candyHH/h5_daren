@@ -40,7 +40,7 @@ $(document).ready(function(){
     window.location.href="next";
   });
   $('.return-index-btn').on('click',function () {
-    window.location.href="index";
+    history.go(-1);
   })
   $('.subway-btn').on('click',function () {
     window.location.href="subway";
